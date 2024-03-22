@@ -1,3 +1,2 @@
 const message = "Hello word"
-
-console.log(message)
+console.log(message.length)
