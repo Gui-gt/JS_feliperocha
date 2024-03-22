@@ -1,3 +1,3 @@
-var mesage = `hello word`
+const message = "Hello word"
 
-alert(mesage)
+console.log(message)
