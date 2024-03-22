@@ -1,33 +1,12 @@
-const firstName = 'Guilherme'
-const lastName = 'Henrique'
+const names = ["Felipe","João","Julia",10,false];
 
-console.log(`Meu nome é ${firstName.toLowerCase()} ${lastName.toUpperCase()}`)
+const joao = names[1]
+console.log(joao)
 
+names.push("Pedro");
 
-const names = 'Felipe,Guilherme,Maria'
+console.log(names)
 
-console.log(names.split(','))
+names.unshift(20);
 
-
-//Numbers
-const number = 5
-console.log(typeof number)
-console.log(typeof number.toString())
-
-//bolleans
-//true or false
-console.log(2 == 2)
-
-//Null and Undefined
-
-const x = null;
-const z = undefined;
-
-console.log(typeof x)
-
-//Arrays
-
-const list = [1,2,3,4,5,6];
-
-//Objects
-const object = {name: 'Felipe'}
+console.log(names)
