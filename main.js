@@ -1,12 +1,22 @@
-const names = ['Giovana']
+const ages = [12,22,30,15,17]
 
-names.push('Guilherme');
-names.unshift('Kira');
+const agesTwosomed = ages.map(function(number){
+    return number* 2
+})
 
-console.log(names);
+console.log(agesTwosomed)
 
-console.log(names.sort());
+const number = [10,22,33]
 
-const sortedNames = names.sort()
+const evenNumbers = number.filter(function(number){
+    return number % 2 === 0 
+})
+console.log(evenNumbers)
 
-console.log(sortedNames)
+const idade = [10,12]
+
+const somaIdade = idade.reduce(function(idade, soma){
+    return idade + soma
+},100)
+
+console.log(somaIdade)
