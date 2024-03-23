@@ -13,3 +13,5 @@ const person = [
     }
 ]
 
+console.log(person[1]);
+
