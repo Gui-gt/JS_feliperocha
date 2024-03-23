@@ -187,3 +187,44 @@ const person = {
 for(properity in person){
     console.log(person[properity])
 }
+
+const sum = 1 + 2;
+
+if(sum === 2){
+    console.log(`Sum is 2`)
+
+}else if(sum === 3){
+    console.log('sum is 3')
+}
+else{
+    console.log(`sum not or 2`)
+}
+
+// && and nessa condição, todas as condições precisam bater para ser true, n caso as duas
+
+// || or nessa condição, se uma bater já vai dar true
+
+
+//onst sum1 = 1+1;
+
+//const sum2 = 2+2;
+
+//if(sum1 === 2 && sum2 === 4){// nessa condição, todas as condições precisam bater para ser true, n caso as duas
+//    console.log('sum1 is 4 and sum2 is four')
+//}
+
+//if(sum1 === 2 || sum2 === 4){// nessa condição, se uma bater já vai dar true
+//    console.log('sum1 is 4 or sum2 is four')
+//}
+
+const sum = 1 + 2;
+
+let number = sum === 2 ? 2 : 4;// mesma coisaque o de baixo.
+
+//if(sum === 2){
+//    number = 2
+//}else{
+//    number = 4
+//}
+
+console.log(number)
