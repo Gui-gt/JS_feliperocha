@@ -1,17 +1,23 @@
-const person = [
-    {
-        Id:1,
-        name: 'Guilherme',
-        age: 20,
-        profissao: 'Desenvolvedor'
-    },
-    {
-        id:2,
-        name: 'Giovana',
-        age: 21,
-        profissao: 'Arquiteta'
-    }
+const tarefas = [
+{
+    id:1,
+    tarefa: 'Treinar',
+    tarefa2: 'estudar'
+},
+{
+    id:2,
+    tarefa: 'Treinar',
+    tarefa2: 'estudar'
+},
+{
+    id:3,
+    tarefa: 'Treinar',
+    tarefa2: 'estudar'
+}
 ]
 
-console.log(person[1]);
+const tarefasJSON = JSON.stringify(tarefas);
+console.log(tarefasJSON);
 
+const tarefasList = JSON.parse(tarefasJSON);
+console.log(tarefasList);
