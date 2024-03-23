@@ -54,3 +54,25 @@ console.log(sortedNames)
 
 const namesIsArray = Array.isArray(names);
 console.log(namesIsArray);
+
+
+const numbers = [1,2,3,4,5]// Array com numeros
+
+const numbersbyMultipliedbyTwo = numbers.map(function(number){
+    return number * 2;
+});// Map pode ser usado para multiplicar
+
+console.log(numbersbyMultipliedbyTwo);
+
+const ages = [10,20,15]
+
+const sumOfages = ages.reduce(function(ages, accumulator){
+    return ages + accumulator
+//},0); // Reduce pode ser usado para somar valores dentro de um array
+console.log(sumOfages)
+
+const evenAges = ages.filter(function(age){
+    return age % 2 === 0;
+}); // filter pode separar numeros impares e pares
+
+console.log(evenAges);
