@@ -128,3 +128,62 @@ console.log(hobbies);
 
 
 console.log(person.dog.age)// logando
+
+const tarefas = [
+    {
+        id:1,
+        tarefa: 'Treinar',
+        tarefa2: 'estudar'
+    },
+    {
+        id:2,
+        tarefa: 'Treinar',
+        tarefa2: 'estudar'
+    },
+    {
+        id:3,
+        tarefa: 'Treinar',
+        tarefa2: 'estudar'
+    }
+    ]// array normal
+    
+    const tarefasJSON = JSON.stringify(tarefas); //convertendo array para JSON para enviar para o backend ou para outro lugar
+    console.log(tarefasJSON);
+    
+    const tarefasList = JSON.parse(tarefasJSON);//convertendo para array novamente
+    console.log(tarefasList);
+    
+    for(let index = 1;index <= 3;index++){
+        console.log(index);
+    };
+    
+    const cars = ['Honda','Mitsubishi','Lamborghini'];
+    
+    for(let i = 0;i < cars.length;i++){
+        console.log(cars[i]);
+    }
+    
+    
+    for (let car of cars){
+        console.log(car)
+    }
+    
+    cars.forEach(function(car,index){
+        console.log(index);
+        console.log(car);
+    })
+
+    let index = 0
+while(index < 10){
+    console.log(index)
+    index++
+}
+
+const person = {
+    name: 'Giovana',
+    age: 21
+}
+
+for(properity in person){
+    console.log(person[properity])
+}
