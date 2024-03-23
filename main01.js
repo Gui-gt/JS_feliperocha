@@ -47,12 +47,12 @@ console.log(names) // imprime no console
 names [3] = "Gustavo" // altera a constante
 
 console.log(names)
-const indexof = (names.indexOf('Gustavo'))
+const indexof = (names.indexOf('Gustavo')) // IndexOf para descobrir em qual posição esta o indice
 
 const sortedNames = (names.sort())
-console.log(sortedNames)
+console.log(sortedNames) // Sort organiza por ordem alfabetica
 
-const namesIsArray = Array.isArray(names);
+const namesIsArray = Array.isArray(names); //Para descobrir se é uma lista_Array
 console.log(namesIsArray);
 
 
