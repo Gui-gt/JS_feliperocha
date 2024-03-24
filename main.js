@@ -1,16 +1,7 @@
-const car  = 'Tesla';
-
-
-switch(car){
-    case'Ferrari':
-    console.log('Ferrari is very god')
-    break
-
-    case'Tesla':
-    console.log('Tesla is very smart')
-    break
-
-    case'Honda':
-    console.log('Honda is beautiful')
-    break
-}
+let c = 4
+if(number = 1){
+    c = 'esta certo'
+}else(
+    number = 4
+)
+console.log(c)
