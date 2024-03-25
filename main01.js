@@ -228,3 +228,12 @@ let number = sum === 2 ? 2 : 4;// mesma coisaque o de baixo.
 //}
 
 console.log(number)
+
+const  c = 0;
+const b = null;
+const a = undefined;
+const d = '';
+const lista = []
+const person = {}
+console.log('todos são false por não conter valor, apenas objetos e listas são true')
+
