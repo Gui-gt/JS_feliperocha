@@ -1,4 +1,10 @@
-function sum(a, b){
-    console.log(a + b)
+const a = 5
+
+const b = 2
+
+if(a < b){
+    console.log('sim')
+}else{
+    console.log(nao)
 }
-sum(2,3)
+
