@@ -237,3 +237,22 @@ const lista = []
 const person = {}
 console.log('todos são false por não conter valor, apenas objetos e listas são true')
 
+//True and false
+
+let x = '';
+
+console.log(!!x)
+
+let a = null;
+
+console.log(!!a)
+let b = undefined;
+console.log(!!b)
+let c = 0;
+console.log(!!c)
+
+const list = [];
+console.log(!!list)
+const object = {};
+console.log(!object);
+
