@@ -1,2 +1,2 @@
 const items = document.querySelector(".items")
-items.remove()
+console.log(items)
