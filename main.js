@@ -1,6 +1,7 @@
-const numeros = [1,2,3,4,5];
-
-const numerosxdois = numeros.map(function(numeros){
-    return numeros * 2
-})
-console.log(numerosxdois);
+const person = {
+    nome:'Guilherme Henrique Maximo dos Santos Almeida',
+    idade:20,
+    sexo:'Muito'
+}
+const {nome, idade,sexo} = person;
+console.log(person);
