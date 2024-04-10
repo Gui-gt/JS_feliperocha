@@ -1,7 +1,11 @@
-const numbers = [1,2,3,4,5];
+const person = {
+    name:'Guilherme Henrique',
+    age:20,
+    prof:'Garçom',
+    dog:{
+        name:'Toi',
+        age: '7',
+    }
+}
 
-const numberSum = numbers.reduce(function(numbers, acumulator){
-    return numbers + acumulator
-},100)
-
-console.log(numberSum);
+console.log(person[dog]);
