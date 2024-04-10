@@ -8,4 +8,6 @@ const person = {
     }
 }
 
-console.log(person[dog]);
+const personn = {name, age, prof};
+
+console.log(personn);
